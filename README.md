@@ -3,7 +3,8 @@
 ## Requirements
 - make sure you have python 3.6 above
 - install virtualenv ```pip install virtualenv```
-
+- important docs (https://dropbox-sdk-python.readthedocs.io/
+)
 ## The setup
 
 - clone the repo ```git clone git@github.com:nadralia/Dropbox.git  ```

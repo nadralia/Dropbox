@@ -1,6 +1,5 @@
 import dropbox
 import re
-import logging
 
 
 def check_path(path, dbx):
@@ -54,7 +53,7 @@ def view_all_directory_contents(directory, dbx):
         if isinstance(fobj, dropbox.files.FileMetadata):
             content_to_return.append(fobj.name)
         else:
-            logging.warn(f"The object type for \"{fobj.name}\" is not currently supported. "
+            print(f"The object type for \"{fobj.name}\" is not currently supported. "
                          "The object was not moved to a destination directory.")
 
     return content_to_return
@@ -73,8 +72,7 @@ def upload_file(directory, dbx):
 
 def move_dropbox_file(source_path, dbx):
     """Moves a file from the source path to the destination path."""
-    print('Enter file name with the file extention like: test.pdf')
-    print('make sure the file is in the root directory of this code')
+    print('Enter destination name of the directory')
     dest = str(input())
 
     destination_path = "/"+ dest + "/"

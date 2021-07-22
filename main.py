@@ -26,7 +26,8 @@ def main(dbx):
             check = helper.check_path(config.SOURCE_DIR, dbx)
             if check:
                 print('Directory exists')
-            print("Directory doesn't exists, make sure to create it")
+            else:
+                print("Directory doesn't exists, make sure to create it")
         elif command == 2:
             helper.make_directory(config.SOURCE_DIR, dbx)
         elif command == 3:
