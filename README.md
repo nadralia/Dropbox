@@ -11,7 +11,7 @@
 - using virtualenv create a virtual env ```virtualenv venv ```
 - activate your virtualenv, find how to activate for your machine but am using macos here is how to activate it ``` source venv/bin/activate ```.
 - run: pip install -r requirements.txt in your shell.
-- In order to build on top of Dropbox, you first need a Dropbox account, create one and install the app. After you’ve registered, head over to the developer section. Choose My apps on the lefthand side of the dashboard and click Create app, follow all the steps given.
+- In order to build on top of Dropbox, you first need a Dropbox account (https://www.dropbox.com/), create one and install the app. After you’ve registered, head over to the developer section (https://www.dropbox.com/lp/developers).On the lefthand side click AppConsole.  Choose My apps on the lefthand side of the dashboard and click Create app, follow all the steps given.
 
 ## Grant Permission
 Now you need to accept the file permissions
