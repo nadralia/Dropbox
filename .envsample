@@ -1,0 +1,2 @@
+export ACCESS_TOKEN=
+export SOURCE_DIR="/test_directory"
